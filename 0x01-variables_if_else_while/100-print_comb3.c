@@ -14,12 +14,12 @@ int main(void)
 	a = 48;
 	b = 48;
 
-	while (e < 58)
+	while (b < 58)
 	{
 		a = 48;
 		while (a < 58)
 		{
-			if (b != a && b < i)
+			if (b != a && b < a)
 			{
 				putchar(b);
 				putchar(a);
@@ -34,6 +34,6 @@ int main(void)
 		}
 		b++;
 	}
-	putchar('\n')
+	putchar('\n');
 		return (0);
 }
