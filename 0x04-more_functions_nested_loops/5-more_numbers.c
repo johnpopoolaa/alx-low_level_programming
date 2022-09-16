@@ -15,7 +15,7 @@ void more_numbers(void)
 
 			if (j > 9)
 			{
-				putchar(19);
+				putchar(49);
 				j = j % 10;
 			}
 			putchar(j + 48);
