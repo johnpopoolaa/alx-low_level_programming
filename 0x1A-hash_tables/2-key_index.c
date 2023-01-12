@@ -1,11 +1,10 @@
 #include "hash_tables.h"
 
 /**
- * key_index - Gets the index a key/value pair is stored in the array of a
- * hash table
- * @key: key to search
- * @size: size of array
- * Return: the index of the key
+ * key_index - generates the key using hash_djb2
+ * @key: pointer the key
+ * @size: size table
+ * Return: index key
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
